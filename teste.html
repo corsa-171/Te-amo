@@ -1,0 +1,96 @@
+<!DOCTYPE html>
+<html lang="pt-BR">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <meta http-equiv="X-UA-Compatible" content="ie=edge">
+    <title>Dia Internacional das Mulheres</title>
+    <style>
+        body {
+            font-family: Arial, sans-serif;
+            margin: 0;
+            padding: 0;
+            background-color: #f5f5f5;
+            color: #333;
+        }
+        .container {
+            max-width: 600px;
+            margin: 20px auto;
+            padding: 15px;
+            background-color: #fff;
+            border-radius: 8px;
+            box-shadow: 0 4px 8px rgba(0, 0, 0, 0.1);
+        }
+        h1 {
+            color: #d85e7a;
+            text-align: center;
+        }
+        p {
+            font-size: 1.2em;
+            line-height: 1.6;
+        }
+        .highlight {
+            color: #d85e7a;
+            font-weight: bold;
+        }
+        .button {
+            display: block;
+            width: 100%;
+            padding: 15px;
+            background-color: #d85e7a;
+            color: white;
+            text-align: center;
+            font-size: 1.2em;
+            text-decoration: none;
+            border-radius: 8px;
+            margin-top: 20px;
+        }
+        .button:hover {
+            background-color: #c14a66;
+        }
+        .response {
+            font-size: 1.5em;
+            color: #333;
+            text-align: center;
+            margin-top: 20px;
+            display: none;
+        }
+        .signature {
+            font-size: 1.2em;
+            color: #d85e7a;
+            text-align: center;
+            margin-top: 10px;
+            display: none;
+        }
+    </style>
+    <script>
+        function mostrarResposta() {
+            document.getElementById('resposta').style.display = 'block';
+            document.getElementById('assinatura').style.display = 'block';
+        }
+    </script>
+</head>
+<body>
+
+    <div class="container">
+        <h1>Feliz Dia Internacional das Mulheres, Nicolly!</h1>
+        
+        <p>Hoje é um dia especial para celebrar sua força, coragem e beleza interior e exterior. Você é uma pessoa incrível e merece todas as homenagens e reconhecimento, não só hoje, mas todos os dias. 💐</p>
+        
+        <p><span class="highlight">Nicolly Nóbrega</span>, saiba que sua presença é fundamental e que você ilumina a vida das pessoas ao seu redor. A sua capacidade de ser forte, sensível e autêntica inspira todos que te conhecem.</p>
+        
+        <p>Eu também queria pedir desculpas por sempre voltar com as mesmas paranoias e por tantas vezes repetir meus erros. Sei que às vezes isso pode ser irritante e frustrante, e peço que entenda que isso não reflete a importância que você tem para mim. Prometo tentar ser melhor, mais atento e mais presente. 🙏🏼</p>
+        
+        <a href="javascript:void(0);" class="button" onclick="mostrarResposta()">Eu te amo!</a>
+        
+        <div id="resposta" class="response">
+            Eu também te amo.
+        </div>
+
+        <div id="assinatura" class="signature">
+            Ass: Paulo
+        </div>
+    </div>
+
+</body>
+</html>
